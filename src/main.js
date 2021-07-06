@@ -3,14 +3,14 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-// 加載全局樣式
-import './styles/index.less'
-
 // 加载有赞Vant 组件库
 import Vant from 'vant'
 
 // 加载样式
 import 'vant/lib/index.css'
+
+// 加載全局樣式
+import './styles/index.less'
 
 // 自动设置REM 基准值 html标签字体大小
 import 'amfe-flexible'
